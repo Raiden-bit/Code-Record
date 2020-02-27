@@ -1,3 +1,4 @@
+#recognize the pic text and save in excel
 from aip import AipOcr
 import re
 import warnings
@@ -5,9 +6,10 @@ import os
 import time
 import pandas as pd
 warnings.filterwarnings("ignore",category=DeprecationWarning)
-App_ID = '18224663'
-Api_Key = '1F7LT7rIccFQ2u1llAufpEb1'
-Secret_Key = 'xGGSoPQeBSTvSb8lI6TGGOOyV9GFdGdg'
+# App_ID Api_Key  Secret_Key  Apply from Baidu Ai
+App_ID = 'xxxxxxxxxx'
+Api_Key = 'xxxxxxxx'
+Secret_Key = 'xxxxxxxxxxxxxxxxxxxxx'
 client = AipOcr(App_ID, Api_Key, Secret_Key)
 def get_pic_name(dirs):
     list_pic = os.listdir(dirs)
