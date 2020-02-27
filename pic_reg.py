@@ -17,7 +17,7 @@ def get_pic_name(dirs):
     #print(list_pic)t
 #print(get_pic_name("D:/temp"))
 if __name__ == '__main__':
-    print(f"---------------------------Reading Pic Words v0.1-------------------------------------")
+    print(f"---------------------------Get Pic Text----------Raiden_bit-------------------------")
     pic_dir = input("Please input the pic_dir(eg:D:/temp):")
     print("Now reading pic words......")
     pic_list = get_pic_name(pic_dir)
