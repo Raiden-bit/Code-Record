@@ -1,3 +1,4 @@
+#converted the mp4 video to mp3 audio
 from moviepy.editor import VideoFileClip
 import os
 def get_movie(dir):                                                       #get mp4 dir
